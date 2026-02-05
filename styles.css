@@ -3,6 +3,15 @@ body {
     margin: 0;
 }
 
+h1,
+h2 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
 
 /* Header */
 
@@ -23,7 +32,7 @@ ul {
     padding: 5px;
     flex-direction: column;
     color: white;
-    padding: 10px 70px 70px;
+    padding: 10px 200px 70px;
 }
 
 .header-top {
@@ -37,6 +46,7 @@ ul {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    align-items: center;
 }
 
 button {
@@ -54,11 +64,12 @@ button {
     flex-direction: column;
     align-items: center;
     gap: 30px;
+    margin: 80px 0;
 }
 
 .rounded-boxes {
     display: flex;
-    gap: 20px;
+    gap: 35px;
     flex-grow: 0;
     justify-content: center;
 
@@ -67,6 +78,8 @@ button {
 .big-box {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
 .box {
@@ -78,5 +91,81 @@ button {
     
 }
 
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 140px;
+    text-align: center;
+}
+
+/* content-gray */
+
+.content-gray {
+    background-color: lightgray;
+    padding: 40px 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.quote {
+    font-weight: 50;
+    font-size: large;
+    font-style: italic;
+}
+
+.signature {
+    font-weight: bold;
+    align-self: flex-end;
+    font-size: small;
+}
+
+/* blue-box */
+
+.blue-box {
+    background-color: rgb(27, 85, 192);
+    margin: 50px auto;
+    display: flex;
+    padding: 40px 100px;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    border-radius: 20px;
+    box-sizing: border-box;
+    max-width: 700px;
+}
+
+.button {
+    border: 1px solid white;
+    border-radius: 6px;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+}
+
+.description {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* footer */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.footer {
+    background-color:rgb(11, 16, 48);
+    color: white;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    padding: 30px;
+
+}
 
 
